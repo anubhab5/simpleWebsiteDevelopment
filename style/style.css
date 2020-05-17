@@ -33,7 +33,19 @@ nav .search i {
     font-size: 18px;
 }
 
-input {
+nav .search input {
     width: 100%;
     line-height: 1.5rem;
+}
+
+aside {
+    width: 200px;
+    height: calc(100vh - 65px);
+    background-color: red;
+}
+
+main {
+    position: absolute;
+    top: 100px;
+    left: 200px;
 }
